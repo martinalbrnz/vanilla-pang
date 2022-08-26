@@ -1,0 +1,29 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ddd;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-container {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.score-container > p {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+canvas {
+  background-color: #466a5a;
+  margin-bottom: 8px;
+}
